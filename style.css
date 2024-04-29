@@ -1,0 +1,19 @@
+@tailwind base;
+	@tailwind components;
+	@tailwind utilities;
+
+.bgadj{
+	background-size: 120%;
+	transition: all 500ms;
+}
+.bgadj:hover{
+	background-size: 100%;
+	filter: brightness(125%);
+}
+.bgmcu{
+	background-size: 100% 100%;
+	transition: all 500ms;
+}
+.bgmcu:hover{
+	background-size: 120% 120%;
+}
